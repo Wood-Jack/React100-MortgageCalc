@@ -8,7 +8,7 @@
   "scripts": {
     "start": "npm run build && node server/index.jsx",
     "cre-start": "npm start",
-    "build": "npm build"
+    "build": "npm build",
     "test": "npm test"
   },
   "repository": {
