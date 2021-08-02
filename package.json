@@ -6,9 +6,10 @@
     "test": "test"
   },
   "scripts": {
-    "start": "parcel public/index.html --open",
-    "build": "npx parcel build public/index.html --no-source-maps",
-    "test": "mocha test/*.spec.js --exit"
+    "start": "npm run build && node server/index.jsx",
+    "cre-start": "npm start",
+    "build": "npm build"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
